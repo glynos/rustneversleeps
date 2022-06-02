@@ -1,3 +1,5 @@
+// https://doc.rust-lang.org/rust-by-example/scope/move/mut.html
+
 fn main() {
     let immutable_box = Box::new(5u32);
 

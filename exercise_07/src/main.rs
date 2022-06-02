@@ -1,3 +1,5 @@
+// https://doc.rust-lang.org/rust-by-example/scope/move/partial_move.html
+
 fn main() {
     #[derive(Debug)]
     struct Person {
@@ -18,7 +20,7 @@ fn main() {
     println!("The person's name is {}", name);
 
     // Error! borrow of partially moved value: `person` partial move occurs
-    //println!("The person struct is {:?}", person);
+    // println!("The person struct is {:?}", person);
 
     // `person` cannot be used but `person.age` can be used as it is not moved
     println!("The person's age from person struct is {}", person.age);

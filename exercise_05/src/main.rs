@@ -39,6 +39,6 @@ fn main() {
     // Since the heap memory has been freed at this point, this action would
     // result in dereferencing freed memory, but it's forbidden by the compiler
     // Error! Same reason as the previous Error
-    //println!("b contains: {}", b);
+    // println!("b contains: {}", b);
     // TODO ^ Try uncommenting this line
 }
